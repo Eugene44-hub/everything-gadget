@@ -3,8 +3,20 @@
     @return (math.div($px, $default)*1rem);
 }
 
-@mixin devices($width) {
+@mixin smallScreen($width) {
     @media screen and (max-width: $width) {
+        @content;
+    }
+}
+
+@mixin largeScreen($width) {
+    @media screen and (min-width: $width) {
+        @content;
+    }
+}
+
+@mixin devices($width1, $width2) {
+    @media screen and (min-width: $width1) and (max-width: $width2) {
         @content;
     }
 }
