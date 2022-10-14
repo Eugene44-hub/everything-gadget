@@ -1,0 +1,21 @@
+@import "../../../sass/index.scss";
+.label{
+    font-size: rem(16);
+    line-height: 100%;
+    color: $dark1;
+}
+.inputContainer{
+    border-color: red;
+    border-radius: 8px;
+    overflow: hidden;
+
+
+    .input{
+       font-size: rem(16);
+        line-height: 100%;
+    
+        &::placeholder{
+            font-size: rem(16);
+        }
+    }
+}
