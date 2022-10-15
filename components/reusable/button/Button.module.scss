@@ -1,0 +1,22 @@
+@import "../../../sass/index.scss";
+
+.button{
+    background:$green1;
+    font-size: rem(16);
+    line-height: 16px;
+    color:$gray;
+
+    &:hover{
+        background-color: $hoverBtn;
+        transition: all .3s ease-in;
+    }
+    &:active{
+        background-color: $activeBtn;
+        transition: all .3s ease-in;
+    }
+
+    @include devices(480px){
+        font-size: rem(14);
+        line-height: 14px;
+    }
+}

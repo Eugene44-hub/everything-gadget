@@ -6,6 +6,7 @@ import styles from "../styles/Home.module.css";
 import About from "./About";
 import Hero from "../components/hero/Hero";
 import SmallNav from "../components/reusable/smallNav/SmallNav";
+import InputField from "../components/reusable/inputField/InputField";
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       {/* <About/> */}
       <Hero />
       <SmallNav />
+      <InputField label="Name" placeholder="Name" inputType="text" />
     </div>
   );
 };
