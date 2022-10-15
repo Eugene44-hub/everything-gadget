@@ -8,7 +8,7 @@ const InputField = ({ label, inputType, placeholder }: InputProps) => {
 
   return (
     <form action="">
-      <label className={`${styles.label} font-medium leading-[16px]`}>
+      <label className={`${styles.label} font-medium leading-[100%] mb-[8px]`}>
         {label}
       </label>
       <div

@@ -1,0 +1,39 @@
+@import "../../sass/index.scss";
+
+.container{
+    background-image: url('../../public/assets/heroBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include devices(1300px){
+        background-image: url('../../public/assets/heroBg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+}
+.header{
+    font-size: rem(48);
+    line-height: 130%;
+    color:$gray;
+    font-weight: 500;
+
+    @include devices(480px){
+        font-size: rem(20);
+        line-height: 130%;
+        font-weight: 600;
+    }
+}
+.text{
+    font-size:rem(24);
+    line-height: 130%;
+    font-weight: 400;
+    color:$gray;
+
+
+    @include devices(480px){
+        font-size: rem(14);
+        line-height: 130%;
+        font-weight: 400;
+    }
+}
