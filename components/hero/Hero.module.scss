@@ -4,13 +4,6 @@
     background-image: url('../../public/assets/heroBg.png');
     background-repeat: no-repeat;
     background-size: cover;
-
-    @include devices(1300px){
-        background-image: url('../../public/assets/heroBg.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-       
-    }
 }
 .header{
     font-size: rem(48);
@@ -18,7 +11,7 @@
     color:$gray;
     font-weight: 500;
 
-    @include devices(480px){
+    @include smallScreen(480px){
         font-size: rem(20);
         line-height: 130%;
         font-weight: 600;
@@ -31,7 +24,7 @@
     color:$gray;
 
 
-    @include devices(480px){
+    @include smallScreen(480px){
         font-size: rem(14);
         line-height: 130%;
         font-weight: 400;

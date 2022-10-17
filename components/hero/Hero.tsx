@@ -7,7 +7,7 @@ const Hero: React.FC = (): JSX.Element => {
     <section>
       <div className={`${styles.container} h-[344px] md:h-[560px] w-full`}>
         <div className="flex flex-col h-full justify-center items-center text-center">
-          <header className={`${styles.header} md:w-[60%] lg:w-[30%] `}>
+          <header className={`${styles.header} md:w-[60%] lg:w-[35%] `}>
             Find your Best tech Gadgets
           </header>
           <p

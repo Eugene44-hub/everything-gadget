@@ -1,12 +1,7 @@
 import React from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import About from "./About";
 import Hero from "../components/hero/Hero";
-import SmallNav from "../components/reusable/smallNav/SmallNav";
-import InputField from "../components/reusable/inputField/InputField";
 
 const Home: NextPage = () => {
   return (
@@ -18,8 +13,6 @@ const Home: NextPage = () => {
       </Head>
       {/* <About/> */}
       <Hero />
-      <SmallNav />
-      <InputField label="Name" placeholder="Name" inputType="text" />
     </div>
   );
 };
