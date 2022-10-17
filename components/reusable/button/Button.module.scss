@@ -15,7 +15,7 @@
         transition: all .3s ease-in;
     }
 
-    @include devices(480px){
+    @include smallScreen(480px){
         font-size: rem(14);
         line-height: 14px;
     }
